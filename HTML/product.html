@@ -121,6 +121,7 @@
       { id: "7", name: "psp lite", price: 1000, img: "../IMAGE/psp.png" },
       { id: "8", name: "bleu night ps5", price: 5000, img: "../IMAGE/not really ps5.png" }
     ];
+    
     const product = products.find(p => p.id === id);
     if(product){
       document.getElementById("product-img").src = product.img;
@@ -139,5 +140,6 @@
       alert("The product has been added to the cart");
     });
   </script>
+      <script src="../JS/SCRIPT.JS"></script>
 </body>
 </html>
